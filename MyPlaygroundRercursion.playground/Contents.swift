@@ -25,7 +25,7 @@ func binaryF(n:Int) -> String{
     }
     return str
 }
-for nbr in 0...100 {
+for nbr in 0...255 {
     print("Le nombre \(nbr) s'écrit en binaire: " +  binaryF(n: nbr))
     str = ""
 }
